@@ -40,17 +40,17 @@ body {
   margin-bottom: 3rem;
 }
 .card .sedan {
-  background: url('https://marcosjsendra.github.io/3-column-preview-card-component-main-MS/icon-sedans.5d651509.svg') no-repeat top left;
+  background: url(https://marcosjsendra.github.io/3-column-preview-card-component-main-MS/icon-sedans.5d651509.svg) no-repeat top left;
   width: auto;
   height: 4.3rem;
 }
 .card .suv {
-  background: url('https://marcosjsendra.github.io/3-column-preview-card-component-main-MS/icon-suvs.15123ea7.svg') no-repeat top left;
+  background: url(https://marcosjsendra.github.io/3-column-preview-card-component-main-MS/icon-suvs.15123ea7.svg) no-repeat top left;
   width: auto;
   height: 4.3rem;
 }
 .card .luxury {
-  background: url('https://marcosjsendra.github.io/3-column-preview-card-component-main-MS/icon-luxury.3338fb94.svg') no-repeat top left;
+  background: url(https://marcosjsendra.github.io/3-column-preview-card-component-main-MS/icon-luxury.3338fb94.svg) no-repeat top left;
   width: auto;
   height: 4.3rem;
 }
