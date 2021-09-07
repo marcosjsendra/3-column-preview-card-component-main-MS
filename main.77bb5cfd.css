@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+  background: #f2f2f2;
+}
+
+.card {
+  width: 92rem;
+  margin: 27rem auto;
+  display: flex;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.card_item {
+  padding: 5rem 6rem 5rem 5rem;
+}
+.card .orange {
+  background-color: #e38826;
+}
+.card .cyan {
+  background-color: #006970;
+}
+.card .dark-cyan {
+  background-color: #004241;
+}
+.card_icon {
+  margin-bottom: 3rem;
+}
+.card .sedan {
+  background: url(/icon-sedans.5d651509.svg) no-repeat top left;
+  width: auto;
+  height: 4.3rem;
+}
+.card .suv {
+  background: url(/icon-suvs.15123ea7.svg) no-repeat top left;
+  width: auto;
+  height: 4.3rem;
+}
+.card .luxury {
+  background: url(/icon-luxury.3338fb94.svg) no-repeat top left;
+  width: auto;
+  height: 4.3rem;
+}
+.card_h1 {
+  font-size: 4rem;
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin-bottom: 2.8rem;
+}
+.card_txt {
+  font-size: 1.5rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 8.4rem;
+}
+.card_btn {
+  display: inline-block;
+  background-color: #f2f2f2;
+  padding: 1.2rem 3.1rem;
+  border: #f2f2f2 solid 2px;
+  border-radius: 5rem;
+  font-size: 1.5rem;
+  mix-blend-mode: screen;
+  cursor: pointer;
+}
+.card_btn:hover {
+  background-color: transparent;
+  border: #f2f2f2 solid 2px;
+  color: #f2f2f2;
+  mix-blend-mode: normal;
+}
+
+.github {
+  width: max-content;
+  border: #006970 solid 1px;
+  border-radius: 2rem;
+  margin: 3rem auto;
+  padding: 3rem;
+  font-size: 1.4rem;
+}
+.github :visited, .github :link {
+  color: #006970;
+}
+
+@media screen and (max-width: 50rem) {
+  .card {
+    flex-direction: column;
+    width: clamp(33rem, 80%, 45rem);
+  }
+  .card_item {
+    padding: 5rem;
+  }
+  .card_txt {
+    margin-bottom: 3rem;
+  }
+
+  .github {
+    width: clamp(33rem, 80%, 45rem);
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */
